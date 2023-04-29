@@ -39,7 +39,7 @@ export default class Demo extends PureComponent {
         return (
             <XCPageView>
                 <XCButton style={styles.btnStyle} onPress={() => {
-                    this.selectedCarTypeRef.open(DATA_TYPE.DATE_TIME, data, dateIndex, hourIndex, minuteIndex)
+                    this.selectedCarTypeRef.open(DATA_TYPE.DATE, data, dateIndex, hourIndex, minuteIndex)
                 }}>
                     <Text style={{color: '#fff'}}>选择时间</Text>
                 </XCButton>
