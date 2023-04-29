@@ -1,0 +1,21 @@
+{
+  "name": "BottomDatePicker",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react-native-modalbox": "^2.0.2",
+    "recyclerlistview": "^4.2.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "yarn": "^1.22.17"
+  },
+  "devDependencies": {
+    "react": "16.6.3",
+    "react-native": "0.57.8"
+  }
+}
